@@ -5,4 +5,5 @@ It does the following:
 2. It copies itself to the startup directory as a hidden file and differently named file.
 3. It creates a hidden flag file, this way it'll know if it has done the above before. If the flag file is detected it'll skip the above and continue to step 4.
 4. It runs a simple Windows PowerShell command that causes a BSOD. This then causes the device to restart and re-run the script, causing another BSOD, causing a loop of the device powering on and off.
+
 **WARNING**: DO **NOT** RUN THIS FILE ON ANY OTHER DEVICE THAN THE TARGET DEVICE. I DO NOT CLAIM RESPONSIBILITY FOR ANY HARM/DAMAGE CAUSED BY THIS SCRIPT.
